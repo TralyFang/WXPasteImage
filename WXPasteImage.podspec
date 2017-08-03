@@ -11,4 +11,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/Jifeng2015/WXPasteImage.git", :tag => s.version.to_s }
   s.source_files = "WXPasteImage/ViewController.swift"
   s.requires_arc = true
+  s.description = 'WXPasteImage is paste image to show...'
 end
